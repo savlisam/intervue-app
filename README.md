@@ -22,3 +22,4 @@ Technické požadavky
 - rozumní struktura component
 - zavedení nástroje pro linting
 - ...
+- test commit
