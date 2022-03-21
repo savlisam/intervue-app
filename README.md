@@ -23,5 +23,5 @@ Technické požadavky
 - čistota kódu
 - rozumná struktura component
 - zavedení nástroje pro linting
-- ...
+- Vue verze 2 nebo 3 + TypeScript
 
