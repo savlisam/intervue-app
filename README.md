@@ -1,27 +1,29 @@
 # intervue-app
 
-Cílem je vytvořit formulářovou aplikaci pro pravidelné investování. Uživatelem je potenciální investor, který musí zadat své osobní údaje pro ověření identity (vše povinné z legislativních důvodů) a zároveň parametry pravidelné investice (kolik Kč chce investovat měsíčně). Aplikace má uživatele motivovat k tomu, aby formulář vyplnil (minimalizace bounce rate, exit rate apod.), aby zadal co nejvyšší částku investice a aby se neobával vyplnit osobní údaje. Pokud uživatel není úplně přesvědčený formulář dokončit, měly by být k dispozici záložní varianty (např.: možnost kontaktovat operátora; v rámci krokovosti uložit alespoň kontaktní údaje, aby investora mohl operátor kontaktovat sám telefonicky; ...).
+Cílem je vytvořit formulářovou aplikaci pro pravidelné investování. Uživatelem je potenciální investor, který musí zadat své osobní údaje pro ověření identity (vše povinné z legislativních důvodů) a zároveň parametry pravidelné investice (kolik Kč chce investovat měsíčně).
 
 Součástí formuláře bude vyplnění nasledujícich polí:
-- jméno, příjmení
-- telefon
-- email
-- rodné číslo
-- číslo občanského průkazu
-- adresa trvalého pobytu
-- pravidelná výše investice (Kč)
-- číslo bankovního účtu (pro výplatu výnosů z investice)
-- souhlas se zpracováním osobních údajů (žádné OÚ nesmí být uloženy bez souhlasu)
+- Pravidelná výše investice (Kč)
+- Jméno, Příjmení
+- Telefon
+- Email
+- Rodné číslo
+- Číslo občanského průkazu
+- Adresa trvalého pobytu
+- Číslo bankovního účtu (pro výplatu výnosů z investice)
+- Souhlas se zpracováním osobních údajů (žádné OÚ nesmí být uloženy bez souhlasu)
 
-UX/UI požadavky
+### UX/UI požadavky
 - krokovost
+  - pro lepší orientaci a "nezahlcení" uživatele množstvím polí hned na začátku je lepší rozdělit formulář do kroků s vysvětlením o co v daném kroku jde
 - responzivita
-- jak uživatelovi podat, že po něm požadujeme číslo OP a neodradit ho od registrace
+  - více než polovina uživatelů vyplňuje formuláŕe v mobilních zařízeních
+- základní validace a sanitizace polí
+  - aby nedocházelo k propsání nezmyselných dat na backend, resp. aby byl uživatel rozumne informován o nevalidném vstupu a opravil ho
 
-
-Technické požadavky
+### Technické požadavky
 - čistota kódu
 - rozumná struktura component
-- zavedení nástroje pro linting
-- Vue verze 2 nebo 3 + TypeScript
-
+- použití TypeScriptu
+- Vue verze 2 nebo 3
+- backendové napojení pro odeslání formuláře - např. přes https://webhook.site/
