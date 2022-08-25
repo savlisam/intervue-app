@@ -26,4 +26,5 @@ Součástí formuláře bude vyplnění nasledujícich polí:
 - rozumná struktura component
 - použití TypeScriptu
 - Vue verze 2 nebo 3
-- backendové napojení pro odeslání formuláře - např. přes https://webhook.site/
+- backendové napojení pro odeslání formuláře - např. přes [https://webhook.site/](https://webhook.site/)
+- jako jedna ze stránek bude souhrn objednávky, kde se použije GET na [https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1) a data se rozparsují a zobrazí
