@@ -1,30 +1,34 @@
 # intervue-app
 
-Cílem je vytvořit formulářovou aplikaci pro pravidelné investování. Uživatelem je potenciální investor, který musí zadat své osobní údaje pro ověření identity (vše povinné z legislativních důvodů) a zároveň parametry pravidelné investice (kolik Kč chce investovat měsíčně).
+Cílem této aplikace je vytvoření formuláře pro pravidelné investování. Uživatelem je potenciální investor, jenž je povinen zadat své osobní údaje pro ověření identity (vše je povinné z legislativních důvodů) a současně parametry pravidelné investice (například kolik Kč měsíčně plánuje investovat).
 
-Součástí formuláře bude vyplnění nasledujícich polí:
-- Pravidelná výše investice (Kč)
-- Jméno, Příjmení
-- Telefon
-- Email
+### Formulář bude obsahovat následující pole:
+- Pravidelná výše investice (Kč) - doplněno o slider
+- Jméno a Příjmení
+- Telefonní číslo
+- Emailová adresa
 - Rodné číslo
 - Číslo občanského průkazu
 - Adresa trvalého pobytu
-- Číslo bankovního účtu (pro výplatu výnosů z investice)
-- Souhlas se zpracováním osobních údajů (žádné OÚ nesmí být uloženy bez souhlasu)
+- Číslo bankovního účtu (pro případné výplaty výnosů z investice)
+- Souhlas se zpracováním osobních údajů (žádné osobní údaje nesmí být uloženy bez výslovného souhlasu)
 
 ### UX/UI požadavky
-- krokovost
-  - pro lepší orientaci a "nezahlcení" uživatele množstvím polí hned na začátku je lepší rozdělit formulář do kroků s vysvětlením o co v daném kroku jde
-- responzivita
-  - více než polovina uživatelů vyplňuje formuláŕe v mobilních zařízeních
-- základní validace a sanitizace polí
-  - aby nedocházelo k propsání nezmyselných dat na backend, resp. aby byl uživatel rozumne informován o nevalidném vstupu a opravil ho
+- Krokovost:
+  - Pro lepší orientaci a aby uživatel nebyl zahlcen množstvím polí hned na začátku, je vhodné formulář rozdělit do jednotlivých kroků s vysvětlením, co je cílem každého kroku.
+- Responzivita:
+  - Více než polovina uživatelů vyplňuje formuláře na mobilních zařízeních.
+- Základní validace a sanitace polí:
+  - Je nutné zabránit odesílání nevalidních nebo nesmyslných dat na backend a současně uživatele informovat o nevalidním vstupu a možnosti jeho opravy.
 
 ### Technické požadavky
-- čistota kódu
-- rozumná struktura component
-- použití TypeScriptu
-- Vue verze 2 nebo 3
-- backendové napojení pro odeslání formuláře - např. přes [https://webhook.site/](https://webhook.site/)
-- jako jedna ze stránek bude souhrn objednávky, kde se použije GET na [https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1) a data se rozparsují a zobrazí
+- Kód by měl být čistý a přehledný.
+- Je třeba dodržet rozumnou strukturu komponent a zvolit vhodný vzor pro projekt.
+- Použití TypeScriptu je povinné.
+- Aplikace by měla být postavena na Vue 3 nebo Nuxt 3.
+- Je třeba použít composables/store.
+- Aplikace bude napojena na placeholder API: https://jsonplaceholder.typicode.com/guide/
+- POST pro odeslání dat
+  - GET pro zobrazení souhrnu na stránce
+  - Je povoleno použití jakýchkoliv npm knihoven.
+- BONUS: Uvítáme použití Tailwind CSS, router guard, a dalších rozšíření.
