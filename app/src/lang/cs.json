@@ -1,0 +1,48 @@
+{
+  "basicInfo": "Kontakty",
+  "identificationInfo": " Identifikace",
+  "financeInfo": "Informace o Investicíh",
+  "firstName": "Jméno",
+  "lastName": "Příjmení",
+  "mail": "Email",
+  "phoneNumber": "Telefoní Číslo",
+  "idNumber": "Číslo Občanského Průkazu",
+  "personalId": "Rodné číslo",
+  "address": "Adresa",
+  "city": "Město",
+  "street": "Ulice",
+  "houseNumber": "Číslo Popisné",
+  "PSC": "PSČ",
+  "bankAccountNumber": "Číslo Bankovního Účtu",
+  "investAmount": "Měsíční Výše Investice",
+  "continue": "Pokračovat ",
+  "back": "Zpět",
+  "submit": "Odeslat",
+  "allowPersonalInfo": "Souhlasím se zpracováním osobních údajů",
+
+  "leave": "Odejít",
+  "stay": "Zůstat",
+  "leaveWarn": "Pokud opustíte stránku, vyplněné informace budou smazány. Opravdu si přejete odejít?",
+
+  "messageForm": "Vyplněním a odesláním tohoto formuláře nás informujete o vašem zájmu o spoluprácí s naší společností.",
+  "messageHome": "Pokud máte zájem o investice, vyplňte krátký formulář abychom vědeli jak vám nejlépe pomoci.",
+  "fillForm": "Mám Zájem!",
+  "successForm": "Formulář úspěšně odeslán",
+  "errorForm":"Formulář nebylo možné odeslat, zkuste to prosím znovu",
+
+  "errorRequired": "Toto pole musí být vyplněno",
+  "errorMaxLength": "Překročen maxiální počet znaků : ",
+  "errorLength": "Počet znaků musí odpovídat :",
+  "errorNumber": "Toto pole musí obsahovat pouze číslice",
+  "errorMail": "Zadaná adresa není validní",
+  "errorBankAccount": "Zadané číslo účtu není validní",
+  "errorAllowPersonalInfo": "Souhlas se zpracováním osobních údajů je povinný k pokračování",
+
+  "hintMail": "příklad: ukázka@mail.cz",
+  "hintAccountNumber": "příklad: (123-)1234567890/1234 ",
+
+
+  "messageContactInfo": "Prosím vyplňte kontaktní informace, abychom se s vámi mohli později spojit.",
+  "messageIdentificationInfo": "Prosím vyplňte identifikační údaje",
+  "messageFinanceInfo" : "Zadejte měsíčně investovanou částku a číslo vašeho bankovního účtu, pro zasílání výplat výnosů z investic."
+}

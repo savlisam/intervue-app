@@ -1,0 +1,47 @@
+{
+  "basicInfo": "Contact Information",
+  "identificationInfo": "Identification Information",
+  "financeInfo": "Finance Information",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "mail": "E-mail Address",
+  "phoneNumber": "Phone Number",
+  "idNumber": "Number of ID",
+  "personalId": "Personal ID",
+  "address": "Address",
+  "city": "City",
+  "street": "Street",
+  "houseNumber": "House Number",
+  "PSC": "Post Number",
+  "bankAccountNumber": "Bank Account Number",
+  "investAmount": "Monthly Invested Amount",
+  "continue": "Continue",
+  "back": "Back",
+  "submit": "Submit",
+  "allowPersonalInfo": "I allow the usage of my personal information",
+
+  "leave": "leave",
+  "stay": "stay",
+  "leaveWarn": "If you leave now, the form will not be submitted and given information will be deleted. Do you still want to leave?",
+
+  "messageForm": "By filling and submitting the following form, you are informing us about your interest in further cooperation",
+  "messageHome": "If you are interested in Investing, fill this short form so we know how to best help you.",
+  "fillForm": "I'm Interested!",
+  "successForm": "Form successfully submitted",
+  "errorForm":"Unable to submit Form, please try again",
+
+  "errorRequired": "This Filed is Required",
+  "errorMaxLength": "Exceeded Maximal Number of Characters : ",
+  "errorLength": "This field expects specific number of characters : ",
+  "errorNumber": "This field expects only numbers",
+  "errorMail": "Please enter a valid e-mail address as shown below",
+  "errorBankAccount": "Please enter a valid Bank account Number as shown below",
+  "errorAllowPersonalInfo": "Allowing usage of personal information is necessary to submit form",
+
+  "hintMail": "example: fake@mail.com",
+  "hintAccountNumber": "example: (123-)1234567890/1234",
+
+  "messageContactInfo": "Please enter your contact information, so we can contact you later.",
+  "messageIdentificationInfo": "Please fill the following fields, so we can Identify you.",
+  "messageFinanceInfo" : "Please enter your amount to invest monthly and your bank account number, so we know where to send your earned money."
+}
